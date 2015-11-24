@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE24EB601C0463F7003D1300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24EB5F1C0463F7003D1300 /* AppDelegate.swift */; };
+		DE24EB621C0463F7003D1300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24EB611C0463F7003D1300 /* ViewController.swift */; };
+		DE24EB651C0463F7003D1300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE24EB631C0463F7003D1300 /* Main.storyboard */; };
+		DE24EB671C0463F7003D1300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE24EB661C0463F7003D1300 /* Assets.xcassets */; };
+		DE24EB6A1C0463F7003D1300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE24EB681C0463F7003D1300 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE24EB5C1C0463F7003D1300 /* Molrayo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molrayo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE24EB5F1C0463F7003D1300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE24EB611C0463F7003D1300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE24EB641C0463F7003D1300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE24EB661C0463F7003D1300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE24EB691C0463F7003D1300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE24EB6B1C0463F7003D1300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE24EB591C0463F6003D1300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE24EB531C0463F6003D1300 = {
+			isa = PBXGroup;
+			children = (
+				DE24EB5E1C0463F7003D1300 /* Molrayo */,
+				DE24EB5D1C0463F7003D1300 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE24EB5D1C0463F7003D1300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE24EB5C1C0463F7003D1300 /* Molrayo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE24EB5E1C0463F7003D1300 /* Molrayo */ = {
+			isa = PBXGroup;
+			children = (
+				DE24EB5F1C0463F7003D1300 /* AppDelegate.swift */,
+				DE24EB611C0463F7003D1300 /* ViewController.swift */,
+				DE24EB631C0463F7003D1300 /* Main.storyboard */,
+				DE24EB661C0463F7003D1300 /* Assets.xcassets */,
+				DE24EB681C0463F7003D1300 /* LaunchScreen.storyboard */,
+				DE24EB6B1C0463F7003D1300 /* Info.plist */,
+			);
+			path = Molrayo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE24EB5B1C0463F6003D1300 /* Molrayo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE24EB6E1C0463F7003D1300 /* Build configuration list for PBXNativeTarget "Molrayo" */;
+			buildPhases = (
+				DE24EB581C0463F6003D1300 /* Sources */,
+				DE24EB591C0463F6003D1300 /* Frameworks */,
+				DE24EB5A1C0463F6003D1300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Molrayo;
+			productName = Molrayo;
+			productReference = DE24EB5C1C0463F7003D1300 /* Molrayo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE24EB541C0463F6003D1300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ji Un Lee";
+				TargetAttributes = {
+					DE24EB5B1C0463F6003D1300 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DE24EB571C0463F6003D1300 /* Build configuration list for PBXProject "Molrayo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE24EB531C0463F6003D1300;
+			productRefGroup = DE24EB5D1C0463F7003D1300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE24EB5B1C0463F6003D1300 /* Molrayo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE24EB5A1C0463F6003D1300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE24EB6A1C0463F7003D1300 /* LaunchScreen.storyboard in Resources */,
+				DE24EB671C0463F7003D1300 /* Assets.xcassets in Resources */,
+				DE24EB651C0463F7003D1300 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE24EB581C0463F6003D1300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE24EB621C0463F7003D1300 /* ViewController.swift in Sources */,
+				DE24EB601C0463F7003D1300 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE24EB631C0463F7003D1300 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE24EB641C0463F7003D1300 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE24EB681C0463F7003D1300 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE24EB691C0463F7003D1300 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE24EB6C1C0463F7003D1300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE24EB6D1C0463F7003D1300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE24EB6F1C0463F7003D1300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Molrayo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Molrayo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE24EB701C0463F7003D1300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Molrayo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Molrayo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE24EB571C0463F6003D1300 /* Build configuration list for PBXProject "Molrayo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE24EB6C1C0463F7003D1300 /* Debug */,
+				DE24EB6D1C0463F7003D1300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE24EB6E1C0463F7003D1300 /* Build configuration list for PBXNativeTarget "Molrayo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE24EB6F1C0463F7003D1300 /* Debug */,
+				DE24EB701C0463F7003D1300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE24EB541C0463F6003D1300 /* Project object */;
+}
