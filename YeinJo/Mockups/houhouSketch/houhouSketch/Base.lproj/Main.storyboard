@@ -55,7 +55,7 @@
             </objects>
             <point key="canvasLocation" x="1412" y="329"/>
         </scene>
-        <!--View Controller-->
+        <!--Music-->
         <scene sceneID="fNC-Dy-bNm">
             <objects>
                 <viewController id="Sxh-9i-FcW" sceneMemberID="viewController">
@@ -75,7 +75,7 @@
                                 <rect key="frame" x="49" y="437" width="223" height="46"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="d87-kx-KSS" kind="push" animates="NO" id="fFM-q4-DbO"/>
+                                    <segue destination="d87-kx-KSS" kind="modal" id="fFM-q4-DbO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdk-We-VBT">
@@ -89,7 +89,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rlk-Jd-DgI"/>
+                    <navigationItem key="navigationItem" title="Music" id="rlk-Jd-DgI"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
@@ -97,7 +97,7 @@
             </objects>
             <point key="canvasLocation" x="1412" y="984"/>
         </scene>
-        <!--View Controller-->
+        <!--Event-->
         <scene sceneID="Yeq-fi-Jom">
             <objects>
                 <viewController id="iCr-kv-b1r" sceneMemberID="viewController">
@@ -124,7 +124,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="3xY-bx-xCK"/>
+                    <navigationItem key="navigationItem" title="Event" id="3xY-bx-xCK"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
@@ -132,7 +132,7 @@
             </objects>
             <point key="canvasLocation" x="1412" y="1646"/>
         </scene>
-        <!--View Controller-->
+        <!--Setting-->
         <scene sceneID="lS8-9m-Acp">
             <objects>
                 <viewController id="9TG-QN-P0a" sceneMemberID="viewController">
@@ -144,7 +144,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="setting" translatesAutoresizingMaskIntoConstraints="NO" id="EUb-ih-OMx">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="bV5-sy-IIF">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <animations/>
                             </imageView>
@@ -160,17 +160,16 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="UiH-gk-ivw"/>
+                    <navigationItem key="navigationItem" title="Setting" id="UiH-gk-ivw"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bIR-cc-VD5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1412" y="3012"/>
         </scene>
-        <!--View Controller-->
+        <!--Webtoon-->
         <scene sceneID="ltT-0h-NJN">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zf5-8u-gt7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="VQu-pe-tGh" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="b3h-Wg-00K"/>
@@ -188,9 +187,10 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="2Zs-xZ-TaW"/>
+                    <navigationItem key="navigationItem" title="Webtoon" id="2Zs-xZ-TaW"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zf5-8u-gt7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1412" y="2315"/>
         </scene>
@@ -282,6 +282,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yrh-ea-ed7">
+                                <rect key="frame" x="267" y="28" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="oZb-XA-R3h" eventType="touchUpInside" id="CeO-jn-SoJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -309,6 +317,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VX-LZ-ccq">
+                                <rect key="frame" x="254" y="28" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="PUh-9I-uvH" eventType="touchUpInside" id="qFF-jq-pB7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -336,6 +352,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qk3-sV-vfQ">
+                                <rect key="frame" x="254" y="28" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="d87-kx-KSS" eventType="touchUpInside" id="Umq-tW-Z5O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -349,7 +373,7 @@
             </objects>
             <point key="canvasLocation" x="3055" y="613"/>
         </scene>
-        <!--View Controller-->
+        <!--Music-->
         <scene sceneID="aGq-Wt-0w9">
             <objects>
                 <viewController id="G61-iR-bRd" sceneMemberID="viewController">
@@ -369,7 +393,7 @@
                                 <rect key="frame" x="47" y="437" width="226" height="46"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="oZb-XA-R3h" kind="push" animates="NO" id="gwd-VK-bg0"/>
+                                    <segue destination="oZb-XA-R3h" kind="modal" id="gwd-VK-bg0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxa-Ot-F9Z">
@@ -390,14 +414,14 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Z4P-7P-l6i"/>
+                    <navigationItem key="navigationItem" title="Music" id="Z4P-7P-l6i"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BLf-Kf-Fb4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1831" y="984"/>
         </scene>
-        <!--View Controller-->
+        <!--Music-->
         <scene sceneID="JXf-Lq-tgg">
             <objects>
                 <viewController id="iJo-F2-dhQ" sceneMemberID="viewController">
@@ -424,14 +448,14 @@
                                 <rect key="frame" x="48" y="435" width="224" height="46"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="PUh-9I-uvH" kind="push" animates="NO" id="IMG-IH-LRU"/>
+                                    <segue destination="PUh-9I-uvH" kind="modal" id="IMG-IH-LRU"/>
                                 </connections>
                             </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="2Sm-ad-LmC"/>
+                    <navigationItem key="navigationItem" title="Music" id="2Sm-ad-LmC"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9nO-uf-cf9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -605,6 +629,11 @@
                         <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="hXK-dF-6Ll">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </toolbar>
                     <connections>
                         <segue destination="Sxh-9i-FcW" kind="relationship" relationship="rootViewController" id="JhK-q8-2Ac"/>
                     </connections>
@@ -685,16 +714,16 @@
         <image name="music2B" width="320" height="568"/>
         <image name="music3" width="320" height="568"/>
         <image name="music3B" width="320" height="568"/>
-        <image name="setting" width="320" height="568"/>
+        <image name="settings" width="320" height="568"/>
         <image name="weatheNextDay" width="320" height="568"/>
         <image name="weatherLastDay" width="320" height="568"/>
         <image name="weatherNow" width="320" height="568"/>
         <image name="webtoonList" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="P2U-MV-uEF"/>
         <segue reference="JhK-q8-2Ac"/>
-        <segue reference="phW-t2-tLG"/>
-        <segue reference="Xbl-6r-JUe"/>
+        <segue reference="lBX-iS-i19"/>
         <segue reference="M4F-DN-EAP"/>
     </inferredMetricsTieBreakers>
 </document>
