@@ -42,7 +42,7 @@ public extension UIViewController {
     
     @IBAction func navigationBack(sender : AnyObject){
         if let navigationCongtroller = self.navigationController {
-            navigationController?.popViewControllerAnimated(true)
+            navigationController?.popViewControllerAnimated(false)
         }
     }
     
