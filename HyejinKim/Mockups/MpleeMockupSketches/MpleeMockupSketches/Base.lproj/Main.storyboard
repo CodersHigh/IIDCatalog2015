@@ -30,7 +30,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="405-oK-DGn" kind="modal" id="fxr-gy-8My"/>
+                                    <segue destination="405-oK-DGn" kind="modal" id="gwN-Jm-4lP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hQU-7j-eum">
@@ -466,16 +466,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <action selector="modalDismiss:" destination="405-oK-DGn" eventType="touchUpInside" id="D9n-h5-Idr"/>
+                                    <action selector="modalDismiss:" destination="405-oK-DGn" eventType="touchUpInside" id="tmg-ul-rOQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="R1v-rN-1kl">
-                                <rect key="frame" x="-2" y="120" width="377" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="po0-Dy-aza">
+                                <rect key="frame" x="0.0" y="117" width="375" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <state key="normal" title=" "/>
                                 <connections>
-                                    <segue destination="Qc1-em-8KF" kind="push" id="fd9-aC-g6D"/>
+                                    <segue destination="Qc1-em-8KF" kind="push" id="9CQ-78-f75"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -501,6 +500,15 @@
                                 <autoresizingMask key="autoresizingMask"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dQG-Xf-ltc">
+                                <rect key="frame" x="309" y="65" width="53" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title=" "/>
+                                <connections>
+                                    <segue destination="405-oK-DGn" kind="modal" id="sqe-Sa-84z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -661,5 +669,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="r8e-hP-zx9"/>
+        <segue reference="sqe-Sa-84z"/>
     </inferredMetricsTieBreakers>
 </document>
