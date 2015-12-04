@@ -12,7 +12,26 @@
 		BADC38E31C11660600D51C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADC38E11C11660600D51C67 /* Main.storyboard */; };
 		BADC38E51C11660600D51C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADC38E41C11660600D51C67 /* Assets.xcassets */; };
 		BADC38E81C11660600D51C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADC38E61C11660600D51C67 /* LaunchScreen.storyboard */; };
+		BADC38F01C11743700D51C67 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADC38EF1C11743700D51C67 /* PilotPlant.framework */; };
+		BADC38F11C11744800D51C67 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADC38EF1C11743700D51C67 /* PilotPlant.framework */; };
+		BADC38F21C11744800D51C67 /* PilotPlant.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BADC38EF1C11743700D51C67 /* PilotPlant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BADC38F51C11745A00D51C67 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC38F41C11745A00D51C67 /* UIViewController+Navigation.swift */; };
+		BADC38F71C11750300D51C67 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADC38F61C11750300D51C67 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BADC38F31C11744800D51C67 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BADC38F21C11744800D51C67 /* PilotPlant.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BADC38DA1C11660600D51C67 /* ASpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +41,9 @@
 		BADC38E41C11660600D51C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BADC38E71C11660600D51C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BADC38E91C11660600D51C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADC38EF1C11743700D51C67 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
+		BADC38F41C11745A00D51C67 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		BADC38F61C11750300D51C67 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BADC38F71C11750300D51C67 /* AVFoundation.framework in Frameworks */,
+				BADC38F01C11743700D51C67 /* PilotPlant.framework in Frameworks */,
+				BADC38F11C11744800D51C67 /* PilotPlant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +63,8 @@
 		BADC38D11C11660600D51C67 = {
 			isa = PBXGroup;
 			children = (
+				BADC38F61C11750300D51C67 /* AVFoundation.framework */,
+				BADC38EF1C11743700D51C67 /* PilotPlant.framework */,
 				BADC38DC1C11660600D51C67 /* ASpace */,
 				BADC38DB1C11660600D51C67 /* Products */,
 			);
@@ -54,6 +81,7 @@
 		BADC38DC1C11660600D51C67 /* ASpace */ = {
 			isa = PBXGroup;
 			children = (
+				BADC38F41C11745A00D51C67 /* UIViewController+Navigation.swift */,
 				BADC38DD1C11660600D51C67 /* AppDelegate.swift */,
 				BADC38DF1C11660600D51C67 /* ViewController.swift */,
 				BADC38E11C11660600D51C67 /* Main.storyboard */,
@@ -74,6 +102,7 @@
 				BADC38D61C11660600D51C67 /* Sources */,
 				BADC38D71C11660600D51C67 /* Frameworks */,
 				BADC38D81C11660600D51C67 /* Resources */,
+				BADC38F31C11744800D51C67 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BADC38F51C11745A00D51C67 /* UIViewController+Navigation.swift in Sources */,
 				BADC38E01C11660600D51C67 /* ViewController.swift in Sources */,
 				BADC38DE1C11660600D51C67 /* AppDelegate.swift in Sources */,
 			);
@@ -249,6 +279,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ASpace/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.ASpace";
@@ -260,6 +294,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ASpace/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.ASpace";
