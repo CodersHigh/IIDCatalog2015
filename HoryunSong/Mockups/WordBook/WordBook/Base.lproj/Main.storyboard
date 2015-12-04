@@ -40,6 +40,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jaz-4a-7p9">
+                                <rect key="frame" x="273" y="26" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="Gmu-Xa-a3S" eventType="touchUpInside" id="Fez-1O-HE9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -47,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jW4-VL-r4n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1240" y="-976"/>
+            <point key="canvasLocation" x="734" y="-940"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -68,6 +76,14 @@
                                 <animations/>
                                 <connections>
                                     <segue destination="EYI-Rc-peq" kind="push" id="lBd-w1-VHc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tt4-4e-Cya">
+                                <rect key="frame" x="276" y="25" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="Gmu-Xa-a3S" kind="modal" id="dyZ-eY-flK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -97,8 +113,26 @@
                                 <rect key="frame" x="275" y="26" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Q0f-uF-g67">
+                                <rect key="frame" x="275" y="26" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vrw-MM-y6l">
+                                <rect key="frame" x="275" y="26" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
                                 <connections>
-                                    <segue destination="9j9-3I-ySh" kind="push" id="FcK-s8-eRz"/>
+                                    <segue destination="9j9-3I-ySh" kind="modal" id="bkP-vo-EyS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5UI-Ui-c5S">
+                                <rect key="frame" x="219" y="71" width="86" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="ImI-8q-bO8" kind="push" id="0bH-Cb-3tt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -143,6 +177,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g3g-Nv-qdo">
+                                <rect key="frame" x="273" y="27" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="9j9-3I-ySh" eventType="touchUpInside" id="X5l-TC-hTG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -151,7 +193,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="StA-bn-xFc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1225" y="694"/>
+            <point key="canvasLocation" x="1231" y="808"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HOR-ia-zCC">
+            <objects>
+                <viewController id="ImI-8q-bO8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Bm-5P-T6W">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sketch-11" id="8xW-D5-2b5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VOm-2E-7Ll">
+                                <rect key="frame" x="9" y="28" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="navigationBack:" destination="ImI-8q-bO8" eventType="touchUpInside" id="VPu-Oi-gZb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SaH-Mv-5cm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N5g-Qf-5Bt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1708" y="577"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Wn3-QK-Cmd">
@@ -225,7 +298,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="jfh-0N-qjy" kind="modal" id="ncC-G0-WVg"/>
+                                    <segue destination="jfh-0N-qjy" kind="push" id="KYt-m0-McU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="A5w-O3-mhe">
+                                <rect key="frame" x="9" y="28" width="99" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="navigationBack:" destination="g9f-wo-3iG" eventType="touchUpInside" id="HYH-Uh-q59"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -251,10 +332,41 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cGv-Rk-VBW">
+                                <rect key="frame" x="20" y="28" width="96" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="navigationBack:" destination="jfh-0N-qjy" eventType="touchUpInside" id="T3t-P5-G5C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EbK-Z3-IP1">
+                                <rect key="frame" x="282" y="115" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="C67-hR-v2F">
+                                <rect key="frame" x="282" y="115" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="jfh-0N-qjy" eventType="touchUpInside" id="hH7-Nc-qtt"/>
+                                    <action selector="navigationBack:" destination="jfh-0N-qjy" eventType="touchUpInside" id="rDT-Ob-XAy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="y9h-vg-I0U">
+                                <rect key="frame" x="220" y="222" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="HOK-n2-3ER" kind="push" id="Ley-bk-btR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="A2M-sz-423"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LRq-tX-J90" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -273,10 +385,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Cao-xH-rDQ">
+                                <rect key="frame" x="28" y="26" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="navigationBack:" destination="HOK-n2-3ER" eventType="touchUpInside" id="BaJ-KR-8Yb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="t3q-UV-Mnt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SIa-lW-D3J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -303,6 +424,14 @@
                                     <segue destination="cs4-f8-l28" kind="push" id="e64-ZL-529"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JJR-qH-zmp">
+                                <rect key="frame" x="6" y="20" width="90" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="navigationBack:" destination="EYI-Rc-peq" eventType="touchUpInside" id="ev0-35-3nZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -326,6 +455,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1iY-VR-Bvv">
+                                <rect key="frame" x="216" y="27" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="N7L-C1-fUa">
+                                <rect key="frame" x="216" y="27" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="X9E-gd-dHb" eventType="touchUpInside" id="9Aq-xQ-FeE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -356,15 +498,28 @@
                                 <rect key="frame" x="214" y="28" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <connections>
-                                    <segue destination="X9E-gd-dHb" kind="push" id="hmE-EQ-dOG"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sketch-2" id="lNj-3F-tqM">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OLG-de-eYF">
+                                <rect key="frame" x="214" y="28" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="X9E-gd-dHb" kind="modal" id="U57-Mg-WV5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oxF-Wj-76R">
+                                <rect key="frame" x="28" y="28" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="navigationBack:" destination="cs4-f8-l28" eventType="touchUpInside" id="PvU-Ut-vvn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -393,7 +548,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="i0M-NU-B4h" kind="push" id="bRu-wb-DxT"/>
+                                    <segue destination="i0M-NU-B4h" kind="modal" id="HVP-f9-ebG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pAC-lj-LFL">
@@ -401,7 +556,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="DyQ-uq-uPH" kind="push" id="nNi-Rv-i4N"/>
+                                    <segue destination="DyQ-uq-uPH" kind="push" id="2yv-28-CNB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hEa-sG-nI9">
+                                <rect key="frame" x="28" y="30" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="navigationBack:" destination="yx0-MA-tvS" eventType="touchUpInside" id="qsq-vj-EJr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -427,6 +590,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QsN-Sq-gKS">
+                                <rect key="frame" x="33" y="27" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="navigationBack:" destination="i0M-NU-B4h" eventType="touchUpInside" id="QCy-AZ-2eD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="io7-tV-wqk">
+                                <rect key="frame" x="282" y="244" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="modalDismiss:" destination="i0M-NU-B4h" eventType="touchUpInside" id="FTL-Gf-NRu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -450,6 +629,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vNW-zf-XNC">
+                                <rect key="frame" x="34" y="31" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="navigationBack:" destination="DyQ-uq-uPH" eventType="touchUpInside" id="M36-eO-OJA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lgu-HB-O4w">
+                                <rect key="frame" x="26" y="76" width="137" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="navigationBack:" destination="DyQ-uq-uPH" eventType="touchUpInside" id="1wH-rp-1Hz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -463,7 +658,7 @@
         <!--All Nicks-->
         <scene sceneID="e1C-oY-yb1">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mb6-Nn-9Dr" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Mb6-Nn-9Dr" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="All Nicks" id="DOg-yI-Eqe"/>
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -485,7 +680,7 @@
         <!--My Nicks-->
         <scene sceneID="ZnF-cR-BzK">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="I7c-6C-R0q" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="I7c-6C-R0q" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="My Nicks" id="RdS-Qq-nkK"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -506,7 +701,7 @@
         <!--Wordbook-->
         <scene sceneID="y35-g4-LAV">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GY2-1y-21O" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="GY2-1y-21O" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Wordbook" id="Avs-zb-r1t"/>
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -528,7 +723,7 @@
         <!--Setting-->
         <scene sceneID="HMp-X1-78G">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oke-Up-M94" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="oke-Up-M94" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Setting" id="LI4-me-qsd"/>
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
@@ -551,6 +746,7 @@
     <resources>
         <image name="sketch-1" width="574" height="1019"/>
         <image name="sketch-10" width="574" height="1019"/>
+        <image name="sketch-11" width="574" height="1019"/>
         <image name="sketch-12" width="574" height="1019"/>
         <image name="sketch-13" width="574" height="1019"/>
         <image name="sketch-14" width="574" height="1019"/>
