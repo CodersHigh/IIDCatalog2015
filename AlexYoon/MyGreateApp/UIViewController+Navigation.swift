@@ -8,6 +8,8 @@
 
 import UIKit
 import ObjectiveC
+import PilotPlant
+
 
 private var backButtonHidden : Bool = false
 private var tapKBDismiss : Bool = false
@@ -21,7 +23,6 @@ public extension UIViewController {
     
     @IBAction func modalDismissPush(sender : AnyObject){
         var destVC : UIViewController! = nil
-        //var tempVC : UIViewController! = nil
         if let presentingVC = self.presentingViewController as? UITabBarController {
             if let tempVC = presentingVC.selectedViewController as? UINavigationController {
                 destVC = tempVC.topViewController
@@ -79,28 +80,19 @@ public extension UIViewController {
         }
     }
     
-    /*
-    @IBInspectable var keyboardDismiss : Bool {
-        get {
-            return objc_getAssociatedObject(self, &tapKBDismiss) as Bool!
-        }
-        set (newValue){
-            objc_setAssociatedObject(self, &tapKBDismiss, newValue, UInt(OBJC_ASSOCIATION_RETAIN))
-        }
-        
-    }
-    
-    public override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
-        super.touchesEnded(touches, withEvent: event)
-        if self.keyboardDismiss {
-            for view in self.view.subviews {
-                view.resignFirstResponder()
-            }
-        }
-    }*/
     
     func viewSize() -> CGSize {
         return self.view.bounds.size
     }
 }
 
+
+class PickerViewController: CHPickerViewController {
+    @IBInspectable var column : Int = 1
+    @IBInspectable var plistName : String = ""
+
+    override func viewDidLoad() {
+        super.column_inspect = column
+        super.plistName_inspect = plistName
+    }
+}
