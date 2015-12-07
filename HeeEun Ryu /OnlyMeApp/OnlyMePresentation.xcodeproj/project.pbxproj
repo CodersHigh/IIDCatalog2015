@@ -14,6 +14,7 @@
 		E925BDD31C083D3B00C14C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E925BDD11C083D3B00C14C30 /* LaunchScreen.storyboard */; };
 		E925BDDE1C083D3B00C14C30 /* OnlyMePresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925BDDD1C083D3B00C14C30 /* OnlyMePresentationTests.swift */; };
 		E925BDE91C083D3B00C14C30 /* OnlyMePresentationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925BDE81C083D3B00C14C30 /* OnlyMePresentationUITests.swift */; };
+		E925FE8F1C11762E0016340D /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925FE8E1C11762E0016340D /* UIViewController+Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +34,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E925FE921C11765C0016340D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		E924D3BE1C084B7700C43220 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PilotPlant.framework; path = OnlyMePresentation/PilotPlant.framework; sourceTree = "<group>"; };
 		E925BDC51C083D3B00C14C30 /* OnlyMePresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlyMePresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E925BDC81C083D3B00C14C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E925BDCA1C083D3B00C14C30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +61,7 @@
 		E925BDE41C083D3B00C14C30 /* OnlyMePresentationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlyMePresentationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E925BDE81C083D3B00C14C30 /* OnlyMePresentationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyMePresentationUITests.swift; sourceTree = "<group>"; };
 		E925BDEA1C083D3B00C14C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E925FE8E1C11762E0016340D /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +92,6 @@
 		E925BDBC1C083D3B00C14C30 = {
 			isa = PBXGroup;
 			children = (
-				E924D3BE1C084B7700C43220 /* PilotPlant.framework */,
 				E925BDC71C083D3B00C14C30 /* OnlyMePresentation */,
 				E925BDDC1C083D3B00C14C30 /* OnlyMePresentationTests */,
 				E925BDE71C083D3B00C14C30 /* OnlyMePresentationUITests */,
@@ -101,6 +114,7 @@
 			children = (
 				E925BDC81C083D3B00C14C30 /* AppDelegate.swift */,
 				E925BDCA1C083D3B00C14C30 /* ViewController.swift */,
+				E925FE8E1C11762E0016340D /* UIViewController+Navigation.swift */,
 				E925BDCC1C083D3B00C14C30 /* Main.storyboard */,
 				E925BDCF1C083D3B00C14C30 /* Assets.xcassets */,
 				E925BDD11C083D3B00C14C30 /* LaunchScreen.storyboard */,
@@ -137,6 +151,7 @@
 				E925BDC11C083D3B00C14C30 /* Sources */,
 				E925BDC21C083D3B00C14C30 /* Frameworks */,
 				E925BDC31C083D3B00C14C30 /* Resources */,
+				E925FE921C11765C0016340D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E925FE8F1C11762E0016340D /* UIViewController+Navigation.swift in Sources */,
 				E925BDCB1C083D3B00C14C30 /* ViewController.swift in Sources */,
 				E925BDC91C083D3B00C14C30 /* AppDelegate.swift in Sources */,
 			);
@@ -404,6 +420,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/OnlyMePresentation",
 					"\"$(SRCROOT)/../../Common\"",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = OnlyMePresentation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -420,6 +437,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/OnlyMePresentation",
 					"\"$(SRCROOT)/../../Common\"",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = OnlyMePresentation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
