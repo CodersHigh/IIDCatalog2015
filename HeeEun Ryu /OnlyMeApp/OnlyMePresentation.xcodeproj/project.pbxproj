@@ -14,7 +14,6 @@
 		E925BDD31C083D3B00C14C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E925BDD11C083D3B00C14C30 /* LaunchScreen.storyboard */; };
 		E925BDDE1C083D3B00C14C30 /* OnlyMePresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925BDDD1C083D3B00C14C30 /* OnlyMePresentationTests.swift */; };
 		E925BDE91C083D3B00C14C30 /* OnlyMePresentationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925BDE81C083D3B00C14C30 /* OnlyMePresentationUITests.swift */; };
-		E925FE8F1C11762E0016340D /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925FE8E1C11762E0016340D /* UIViewController+Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E925FE921C11765C0016340D /* Embed Frameworks */ = {
+		E9D22FB41C157064008A88DE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -61,7 +60,6 @@
 		E925BDE41C083D3B00C14C30 /* OnlyMePresentationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlyMePresentationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E925BDE81C083D3B00C14C30 /* OnlyMePresentationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyMePresentationUITests.swift; sourceTree = "<group>"; };
 		E925BDEA1C083D3B00C14C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E925FE8E1C11762E0016340D /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 			children = (
 				E925BDC81C083D3B00C14C30 /* AppDelegate.swift */,
 				E925BDCA1C083D3B00C14C30 /* ViewController.swift */,
-				E925FE8E1C11762E0016340D /* UIViewController+Navigation.swift */,
 				E925BDCC1C083D3B00C14C30 /* Main.storyboard */,
 				E925BDCF1C083D3B00C14C30 /* Assets.xcassets */,
 				E925BDD11C083D3B00C14C30 /* LaunchScreen.storyboard */,
@@ -151,7 +148,7 @@
 				E925BDC11C083D3B00C14C30 /* Sources */,
 				E925BDC21C083D3B00C14C30 /* Frameworks */,
 				E925BDC31C083D3B00C14C30 /* Resources */,
-				E925FE921C11765C0016340D /* Embed Frameworks */,
+				E9D22FB41C157064008A88DE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E925FE8F1C11762E0016340D /* UIViewController+Navigation.swift in Sources */,
 				E925BDCB1C083D3B00C14C30 /* ViewController.swift in Sources */,
 				E925BDC91C083D3B00C14C30 /* AppDelegate.swift in Sources */,
 			);
@@ -416,12 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/OnlyMePresentation",
-					"\"$(SRCROOT)/../../Common\"",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = OnlyMePresentation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "joyceu94-gmail.com.OnlyMePresentation";
@@ -433,12 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/OnlyMePresentation",
-					"\"$(SRCROOT)/../../Common\"",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = OnlyMePresentation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "joyceu94-gmail.com.OnlyMePresentation";
@@ -450,6 +436,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OnlyMePresentationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "joyceu94-gmail.com.OnlyMePresentationTests";
@@ -462,6 +452,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OnlyMePresentationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "joyceu94-gmail.com.OnlyMePresentationTests";
@@ -473,6 +467,10 @@
 		E925BDF41C083D3B00C14C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OnlyMePresentationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "joyceu94-gmail.com.OnlyMePresentationUITests";
@@ -485,6 +483,10 @@
 		E925BDF51C083D3B00C14C30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OnlyMePresentationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "joyceu94-gmail.com.OnlyMePresentationUITests";
