@@ -22,7 +22,6 @@
 		84B4A2161C084AE800434E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B4A2191C084AE800434E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B4A21B1C084AE800434E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84B4A2211C084B3B00434E1A /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PilotPlant.framework; path = ../../../Common/PilotPlant.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +38,6 @@
 		84B4A2031C084AE800434E1A = {
 			isa = PBXGroup;
 			children = (
-				84B4A2211C084B3B00434E1A /* PilotPlant.framework */,
 				84B4A20E1C084AE800434E1A /* houhouApplication */,
 				84B4A20D1C084AE800434E1A /* Products */,
 			);
@@ -291,6 +289,7 @@
 				84B4A2201C084AE800434E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
