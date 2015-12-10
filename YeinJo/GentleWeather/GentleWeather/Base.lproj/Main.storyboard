@@ -626,7 +626,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2sE-su-JBI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3187" y="-320"/>
+            <point key="canvasLocation" x="3155" y="-608"/>
         </scene>
         <!--Stop Motion Scene-->
         <scene sceneID="DFm-QS-A3e">
@@ -1507,12 +1507,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1O-yP-1HZ">
-                                <rect key="frame" x="271" y="52" width="15" height="25"/>
-                                <connections>
-                                    <segue destination="2ms-F7-d6z" kind="push" animates="NO" id="Kvv-Bg-TIm"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0IE-RL-9IV">
                                 <rect key="frame" x="283" y="52" width="15" height="25"/>
                                 <connections>
@@ -1529,6 +1523,12 @@
                                 <rect key="frame" x="302" y="52" width="15" height="25"/>
                                 <connections>
                                     <segue destination="AvP-aR-IwD" kind="push" animates="NO" id="GWc-eK-4hv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1O-yP-1HZ">
+                                <rect key="frame" x="269" y="51" width="15" height="25"/>
+                                <connections>
+                                    <segue destination="2ms-F7-d6z" kind="push" animates="NO" id="7WO-ZE-UrD"/>
                                 </connections>
                             </button>
                             <containerView opaque="NO" contentMode="scaleAspectFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FXH-HO-wvG">
@@ -1565,11 +1565,11 @@
                             <constraint firstItem="iIx-Lc-0Bc" firstAttribute="top" secondItem="fc8-Yj-crH" secondAttribute="bottom" constant="23" id="3Cn-9L-Kz3"/>
                             <constraint firstItem="W4e-c9-vYa" firstAttribute="top" secondItem="iIx-Lc-0Bc" secondAttribute="bottom" constant="28" id="5EO-BB-X2e"/>
                             <constraint firstItem="vWU-Bn-uko" firstAttribute="leading" secondItem="0IE-RL-9IV" secondAttribute="trailing" constant="-20" id="5jb-aC-gcp"/>
-                            <constraint firstItem="vWU-Bn-uko" firstAttribute="leading" secondItem="j1O-yP-1HZ" secondAttribute="trailing" constant="-8" id="A1h-OM-en2"/>
+                            <constraint firstItem="vWU-Bn-uko" firstAttribute="leading" secondItem="j1O-yP-1HZ" secondAttribute="trailing" constant="-6" id="A1h-OM-en2"/>
                             <constraint firstItem="fc8-Yj-crH" firstAttribute="centerX" secondItem="fSO-RL-cfT" secondAttribute="centerX" id="Bs3-Cr-daf"/>
                             <constraint firstItem="W4e-c9-vYa" firstAttribute="top" secondItem="MWD-ct-Wcp" secondAttribute="bottom" id="DGk-zZ-xQz"/>
                             <constraint firstItem="MWD-ct-Wcp" firstAttribute="leading" secondItem="fSO-RL-cfT" secondAttribute="leadingMargin" constant="-20" id="DdW-AR-Y6p"/>
-                            <constraint firstItem="j1O-yP-1HZ" firstAttribute="top" secondItem="vWU-Bn-uko" secondAttribute="bottom" constant="-15" id="FCz-oX-gQG"/>
+                            <constraint firstItem="j1O-yP-1HZ" firstAttribute="top" secondItem="vWU-Bn-uko" secondAttribute="bottom" constant="-16" id="FCz-oX-gQG"/>
                             <constraint firstItem="UY8-Fw-cA7" firstAttribute="top" secondItem="Kan-iR-C08" secondAttribute="bottom" constant="8" id="FUY-NO-hc7"/>
                             <constraint firstItem="5ou-nQ-V0J" firstAttribute="leading" secondItem="tHF-a5-Qhr" secondAttribute="trailing" constant="-415" id="GA8-Tp-R2I"/>
                             <constraint firstItem="iIx-Lc-0Bc" firstAttribute="top" secondItem="lf7-3c-Ood" secondAttribute="bottom" constant="23" id="HpG-dd-Ivc"/>
@@ -1611,7 +1611,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rRW-Yc-xbs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4403" y="164"/>
+            <point key="canvasLocation" x="4349" y="156"/>
         </scene>
         <!--Stop Motion Scene-->
         <scene sceneID="jmq-IF-u6u">
@@ -1749,10 +1749,10 @@
         <image name="w9" width="65" height="53"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aC9-GF-0CT"/>
-        <segue reference="tXb-5g-DfQ"/>
         <segue reference="iIk-3o-81P"/>
-        <segue reference="Kvv-Bg-TIm"/>
+        <segue reference="tXb-5g-DfQ"/>
         <segue reference="GWc-eK-4hv"/>
+        <segue reference="7WO-ZE-UrD"/>
+        <segue reference="aC9-GF-0CT"/>
     </inferredMetricsTieBreakers>
 </document>
