@@ -36,7 +36,7 @@ So Jack went down to the cool cellar and pulled a jar of strawberry jam from one
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Uy-gZ-nuU">
-                                <rect key="frame" x="205" y="196" width="60" height="6"/>
+                                <rect key="frame" x="205" y="133" width="60" height="6"/>
                                 <color key="backgroundColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="NLF-2c-h6I"/>
@@ -50,7 +50,7 @@ So Jack went down to the cool cellar and pulled a jar of strawberry jam from one
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ts-EU-LqV">
-                                <rect key="frame" x="298" y="271" width="60" height="6"/>
+                                <rect key="frame" x="298" y="208" width="60" height="6"/>
                                 <color key="backgroundColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="6" id="M85-hh-DCz"/>
@@ -64,7 +64,7 @@ So Jack went down to the cool cellar and pulled a jar of strawberry jam from one
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYG-yZ-Xux">
-                                <rect key="frame" x="184" y="298" width="60" height="6"/>
+                                <rect key="frame" x="184" y="233" width="60" height="6"/>
                                 <color key="backgroundColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="6" id="2be-O1-o9L"/>
@@ -90,12 +90,12 @@ So Jack went down to the cool cellar and pulled a jar of strawberry jam from one
                             <constraint firstItem="jei-bN-KyY" firstAttribute="leading" secondItem="Sci-fS-46V" secondAttribute="leadingMargin" constant="-30" id="AUR-fY-j5A"/>
                             <constraint firstItem="mLa-cL-9fh" firstAttribute="leading" secondItem="Sci-fS-46V" secondAttribute="leadingMargin" constant="6" id="Ebh-7s-xUJ"/>
                             <constraint firstItem="2ts-EU-LqV" firstAttribute="leading" secondItem="Sci-fS-46V" secondAttribute="leadingMargin" constant="278" id="F9e-Yu-wsY"/>
-                            <constraint firstItem="3Uy-gZ-nuU" firstAttribute="top" secondItem="2xR-UX-yUj" secondAttribute="bottom" constant="196" id="Ggo-cx-EuM"/>
+                            <constraint firstItem="3Uy-gZ-nuU" firstAttribute="top" secondItem="2xR-UX-yUj" secondAttribute="bottom" constant="133" id="Ggo-cx-EuM"/>
                             <constraint firstItem="3Uy-gZ-nuU" firstAttribute="leading" secondItem="Sci-fS-46V" secondAttribute="leadingMargin" constant="185" id="Njx-zH-2yb"/>
                             <constraint firstItem="jei-bN-KyY" firstAttribute="leading" secondItem="Sci-fS-46V" secondAttribute="leadingMargin" id="Qwg-Sy-lqv"/>
                             <constraint firstItem="mLa-cL-9fh" firstAttribute="top" secondItem="2xR-UX-yUj" secondAttribute="bottom" constant="14" id="VPb-7b-3oq"/>
-                            <constraint firstItem="rYG-yZ-Xux" firstAttribute="top" secondItem="2xR-UX-yUj" secondAttribute="bottom" constant="298" id="XTM-Qu-D6B"/>
-                            <constraint firstItem="2ts-EU-LqV" firstAttribute="top" secondItem="2xR-UX-yUj" secondAttribute="bottom" constant="271" id="d0N-Oy-6H5"/>
+                            <constraint firstItem="rYG-yZ-Xux" firstAttribute="top" secondItem="2xR-UX-yUj" secondAttribute="bottom" constant="233" id="XTM-Qu-D6B"/>
+                            <constraint firstItem="2ts-EU-LqV" firstAttribute="top" secondItem="2xR-UX-yUj" secondAttribute="bottom" constant="208" id="d0N-Oy-6H5"/>
                             <constraint firstItem="ncd-z6-UXG" firstAttribute="top" secondItem="jei-bN-KyY" secondAttribute="bottom" id="hzp-dR-uPW"/>
                             <constraint firstItem="rYG-yZ-Xux" firstAttribute="leading" secondItem="Sci-fS-46V" secondAttribute="leadingMargin" constant="164" id="t7n-Bt-yLy"/>
                         </constraints>
@@ -2007,7 +2007,7 @@ And truly those children could not catch him. Once out of their sight he continu
                         <constraints>
                             <constraint firstItem="Seb-xz-7fd" firstAttribute="leading" secondItem="RLY-9w-tKA" secondAttribute="leadingMargin" constant="6" id="4wh-AL-EXd"/>
                             <constraint firstItem="8Wy-tx-CXd" firstAttribute="top" secondItem="htU-lH-Iaf" secondAttribute="bottom" id="8YE-dD-cbc"/>
-                            <constraint firstItem="dfP-as-qd1" firstAttribute="top" secondItem="c5P-OL-h5e" secondAttribute="bottom" constant="322" id="I5w-D8-Aa2"/>
+                            <constraint firstItem="dfP-as-qd1" firstAttribute="top" secondItem="c5P-OL-h5e" secondAttribute="bottom" constant="260" id="I5w-D8-Aa2"/>
                             <constraint firstItem="dfP-as-qd1" firstAttribute="leading" secondItem="RLY-9w-tKA" secondAttribute="leadingMargin" constant="207" id="JtK-rj-SQ0"/>
                             <constraint firstItem="htU-lH-Iaf" firstAttribute="leading" secondItem="RLY-9w-tKA" secondAttribute="leadingMargin" constant="-30" id="L4S-Ms-q7H"/>
                             <constraint firstItem="htU-lH-Iaf" firstAttribute="leading" secondItem="RLY-9w-tKA" secondAttribute="leadingMargin" id="R6w-6F-HJP"/>
@@ -3915,11 +3915,11 @@ And truly those children could not catch him. Once out of their sight he continu
         <image name="popcorn s-1" width="1250" height="1250"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Jze-4U-SIo"/>
-        <segue reference="epY-FX-Ujp"/>
         <segue reference="4aZ-Eu-Kht"/>
+        <segue reference="epY-FX-Ujp"/>
         <segue reference="Lx1-yg-Vux"/>
         <segue reference="Gg1-tA-Tyy"/>
+        <segue reference="Jze-4U-SIo"/>
         <segue reference="xFi-0e-Jpm"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.10196078431372549" green="0.73725490196078436" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
