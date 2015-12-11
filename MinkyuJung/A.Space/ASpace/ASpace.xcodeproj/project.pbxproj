@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA9FA55A1C1A5E3A0023DEEF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9FA5591C1A5E3A0023DEEF /* Media.xcassets */; };
 		BADC38DE1C11660600D51C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC38DD1C11660600D51C67 /* AppDelegate.swift */; };
 		BADC38E01C11660600D51C67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC38DF1C11660600D51C67 /* ViewController.swift */; };
 		BADC38E31C11660600D51C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADC38E11C11660600D51C67 /* Main.storyboard */; };
-		BADC38E51C11660600D51C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADC38E41C11660600D51C67 /* Assets.xcassets */; };
 		BADC38E81C11660600D51C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADC38E61C11660600D51C67 /* LaunchScreen.storyboard */; };
 		BADC38F01C11743700D51C67 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADC38EF1C11743700D51C67 /* PilotPlant.framework */; };
 		BADC38F11C11744800D51C67 /* PilotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADC38EF1C11743700D51C67 /* PilotPlant.framework */; };
@@ -34,11 +34,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA9FA5591C1A5E3A0023DEEF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		BADC38DA1C11660600D51C67 /* ASpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADC38DD1C11660600D51C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BADC38DF1C11660600D51C67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BADC38E21C11660600D51C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BADC38E41C11660600D51C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BADC38E71C11660600D51C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BADC38E91C11660600D51C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BADC38EF1C11743700D51C67 /* PilotPlant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PilotPlant.framework; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 				BADC38DD1C11660600D51C67 /* AppDelegate.swift */,
 				BADC38DF1C11660600D51C67 /* ViewController.swift */,
 				BADC38E11C11660600D51C67 /* Main.storyboard */,
-				BADC38E41C11660600D51C67 /* Assets.xcassets */,
+				BA9FA5591C1A5E3A0023DEEF /* Media.xcassets */,
 				BADC38E61C11660600D51C67 /* LaunchScreen.storyboard */,
 				BADC38E91C11660600D51C67 /* Info.plist */,
 			);
@@ -152,7 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BADC38E81C11660600D51C67 /* LaunchScreen.storyboard in Resources */,
-				BADC38E51C11660600D51C67 /* Assets.xcassets in Resources */,
+				BA9FA55A1C1A5E3A0023DEEF /* Media.xcassets in Resources */,
 				BADC38E31C11660600D51C67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +324,7 @@
 				BADC38EE1C11660600D51C67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
