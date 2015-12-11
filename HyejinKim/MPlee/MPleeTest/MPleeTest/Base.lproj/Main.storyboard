@@ -82,12 +82,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="381" height="154"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" image="레오1" id="RKa-Pp-wNs">
-                                                    <rect key="frame" x="14" y="8" width="214" height="139"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <animations/>
-                                                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                                                </imageView>
                                                 <view contentMode="scaleToFill" id="ZYF-WS-hDo">
                                                     <rect key="frame" x="230" y="0.0" width="163" height="154"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -158,6 +152,11 @@
                                                     <animations/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="레오1" id="nHC-hc-hUX">
+                                                    <rect key="frame" x="13" y="8" width="210" height="139"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                </imageView>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -879,12 +878,6 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <animations/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="레오" id="o4n-oI-2JC">
-                                                    <rect key="frame" x="72" y="48" width="255" height="284"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <animations/>
-                                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개해맑음ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0ed-h9-TEU">
                                                     <rect key="frame" x="72" y="19" width="255" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -899,6 +892,11 @@
                                                     <animations/>
                                                     <state key="normal" title=" "/>
                                                 </button>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leoRefind" id="go7-CC-x2k">
+                                                    <rect key="frame" x="72" y="48" width="255" height="288"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                </imageView>
                                             </subviews>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -1762,12 +1760,12 @@
         <image name="comment" width="454" height="454"/>
         <image name="doubleoseven1" width="213" height="142"/>
         <image name="leo1" width="380" height="262"/>
+        <image name="leoRefind" width="217" height="290"/>
         <image name="sanandreas1" width="332" height="160"/>
         <image name="slavery1" width="332" height="187"/>
         <image name="suji1" width="500" height="714"/>
         <image name="suji2" width="332" height="221"/>
         <image name="tom1" width="213" height="128"/>
-        <image name="레오" width="399" height="599"/>
         <image name="레오1" width="490" height="245"/>
     </resources>
     <inferredMetricsTieBreakers>
