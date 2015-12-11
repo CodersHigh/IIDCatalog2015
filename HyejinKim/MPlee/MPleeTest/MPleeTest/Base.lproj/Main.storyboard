@@ -1135,7 +1135,7 @@
                                         <animations/>
                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                         <connections>
-                                            <segue destination="FIE-Ns-N1H" kind="push" id="qfr-0S-tgf"/>
+                                            <segue destination="FIE-Ns-N1H" kind="push" id="Qi5-Df-lif"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="modal1" textLabel="eZ8-TF-bid" rowHeight="64" style="IBUITableViewCellStyleDefault" id="c4X-yq-ICx" userLabel="modal2">
@@ -1771,7 +1771,7 @@
         <image name="레오1" width="490" height="245"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qfr-0S-tgf"/>
+        <segue reference="Qi5-Df-lif"/>
         <segue reference="idr-QG-F2b"/>
     </inferredMetricsTieBreakers>
 </document>
