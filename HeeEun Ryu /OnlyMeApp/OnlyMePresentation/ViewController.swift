@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  OnlyMePresentation
+//  PilotPlantCatalog
 //
-//  Created by Joyce on 2015. 11. 27..
-//  Copyright © 2015년 Joyce. All rights reserved.
+//  Created by Lingostar on 2015. 11. 4..
+//  Copyright © 2015년 LingoStar. All rights reserved.
 //
 
 import UIKit
