@@ -14,7 +14,10 @@ private var backButtonHidden : Bool = false
 private var tapKBDismiss : Bool = false
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> CodersHigh/master
 class PopoverHostScene: CHPopoverHostViewController {
     
 }
@@ -39,6 +42,9 @@ class AlertScene: CHAlertViewController {
     }
 }
 
+<<<<<<< HEAD
+>>>>>>> CodersHigh/master
+=======
 >>>>>>> CodersHigh/master
 class PickerScene: CHPickerViewController {
     @IBInspectable var column : Int = 1
@@ -62,8 +68,13 @@ class WebScene: CHWebViewController {
 
 class MapScene: CHMapViewController {
 <<<<<<< HEAD
+<<<<<<< HEAD
     @IBInspectable var mapCenter = CGPointMake(36.976775, 128.362891)
     @IBInspectable var mapSpan = CGSizeMake(0.005, 0.005)
+=======
+    @IBInspectable var mapCenter:CGPoint = CGPointMake(36.976775, 128.362891)
+    @IBInspectable var mapSpan:CGSize = CGSizeMake(0.005, 0.005)
+>>>>>>> CodersHigh/master
 =======
     @IBInspectable var mapCenter:CGPoint = CGPointMake(36.976775, 128.362891)
     @IBInspectable var mapSpan:CGSize = CGSizeMake(0.005, 0.005)
@@ -83,16 +94,23 @@ class ImageScrollScene: CHImageScrollViewController {
         super.imageName_inspect = imageName
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> CodersHigh/master
     @IBAction func zoomToScale(sender: AnyObject) {
         super.scaleTo(sender)
     }
     
+<<<<<<< HEAD
+>>>>>>> CodersHigh/master
+=======
 >>>>>>> CodersHigh/master
 }
 
 
 class MovieScene: CHMoviePlayViewController {
+<<<<<<< HEAD
 <<<<<<< HEAD
     @IBInspectable var movieName = ""
     //@IBInspectable var showControl = false
@@ -103,10 +121,15 @@ class MovieScene: CHMoviePlayViewController {
         //super.showControl_inspect = showControl
         super.repeats_inspect = repeats
 =======
+=======
+>>>>>>> CodersHigh/master
     @IBInspectable var movieName:String = ""
     
     override func viewDidLoad() {
         super.movieName_inspect = movieName
+<<<<<<< HEAD
+>>>>>>> CodersHigh/master
+=======
 >>>>>>> CodersHigh/master
     }
 }
@@ -114,9 +137,15 @@ class MovieScene: CHMoviePlayViewController {
 
 class StopMotionScene: CHStopMotionViewController {
 <<<<<<< HEAD
+<<<<<<< HEAD
     @IBInspectable var imageBaseName = ""
     @IBInspectable var repeats = false
     @IBInspectable var duration = 5.0
+=======
+    @IBInspectable var imageBaseName:String = ""
+    @IBInspectable var repeats:Bool = false
+    @IBInspectable var duration:Double = 5.0
+>>>>>>> CodersHigh/master
 =======
     @IBInspectable var imageBaseName:String = ""
     @IBInspectable var repeats:Bool = false
@@ -131,6 +160,7 @@ class StopMotionScene: CHStopMotionViewController {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 class PagingScene: CHPagingViewController {
     @IBInspectable var imageBaseName : String = ""
@@ -138,6 +168,8 @@ class PagingScene: CHPagingViewController {
     override func viewDidLoad() {
         super.imageBaseName_inspect = imageBaseName
 =======
+=======
+>>>>>>> CodersHigh/master
 class AudioScene: CHAudioPlayViewController {
     @IBInspectable var audioFileName:String = ""
     
@@ -155,14 +187,22 @@ class PagingScene: CHPagingViewController {
         super.imageBaseName_inspect = imageBaseName
         super.pageIndicator_inspect = pageIndicator
         super.pageSpace_inspect = pageSpace
+<<<<<<< HEAD
+>>>>>>> CodersHigh/master
+=======
 >>>>>>> CodersHigh/master
     }
 }
 
 @IBDesignable class RoundButton: RoundRectButton {
 <<<<<<< HEAD
+<<<<<<< HEAD
     @IBInspectable var corner = 8
     @IBInspectable var border = 2
+=======
+    @IBInspectable var corner:Int = 8
+    @IBInspectable var border:Int = 2
+>>>>>>> CodersHigh/master
 =======
     @IBInspectable var corner:Int = 8
     @IBInspectable var border:Int = 2
@@ -242,9 +282,15 @@ public extension UIViewController {
     
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     func viewSize() -> CGSize {
         return self.view.bounds.size
     }
+=======
+//    func viewSize() -> CGSize {
+//        return self.view.bounds.size
+//    }
+>>>>>>> CodersHigh/master
 =======
 //    func viewSize() -> CGSize {
 //        return self.view.bounds.size
