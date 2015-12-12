@@ -1,5 +1,18 @@
 # IIDCatalog2015
-연세대학교 정보인터렉션디자인학과 `애플리케이션 프로토타이핑` 수업 기말 프로젝트를 위한 리포지터리
+2015년 연세대학교 정보인터렉션디자인학과 `애플리케이션 프로토타이핑` 수업 기말 프로젝트를 위한 리포지터리
+
+## GentleWeather
+[GentleWeather - 조예인](http://macdown.uranusjr.com "Title")
+<img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/YeinJo/GentleWeatherPresentation/gentleScreenshot1.png" alt="GentleWeather Screenshot" height="200" >
+
+
+
+#송호련
+![송호련](http://yonseiiid.com/images/people/students/2012/2012HoryunSong.png)
+
+
+
+
 
 ## 폴더 구조와 기말 프로젝트 구성
 여러명이 공동으로 작업하는 공간이므로 폴더 사용의 원칙을 지켜주세요.
