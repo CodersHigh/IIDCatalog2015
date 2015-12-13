@@ -1,10 +1,10 @@
 # Underlined
 
 ### ADS
-[![Underlined ADS Video](https://i.ytimg.com/s_vi/-CiorEPdGZA/hqdefault.jpg?sqp=COiBtrMF&rs=AOn4CLDXDRt_9miiKMfNLm5ntoDs27tLiQ)](https://www.youtube.com/watch?v=-CiorEPdGZA)
+[![Underlined ADS Video](http://img.youtube.com/vi/-CiorEPdGZA/0.jpg)](https://www.youtube.com/watch?v=-CiorEPdGZA)
 
 ### Prototype
-[![Underlined App Video](https://i.ytimg.com/s_vi/OFWlAbF3Rh0/hqdefault.jpg?sqp=COiBtrMF&rs=AOn4CLDgN6RbJXARK39x9rs6_Bk-Ns4GQQ)](https://www.youtube.com/watch?v=OFWlAbF3Rh0)
+[![Underlined App Video](http://img.youtube.com/vi/OFWlAbF3Rh0/0.jpg)](https://www.youtube.com/watch?v=OFWlAbF3Rh0)
 
 ### Screenshots
 ![Underlined Screenshot1](https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/HoryunSong/Presentation/UnderlinedScreenshot1.png)

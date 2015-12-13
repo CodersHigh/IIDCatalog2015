@@ -1,10 +1,10 @@
 # GentleWeather
 
 ### ADS
-
+[![GentleWeather ADS Video](http://img.youtube.com/vi/S09eIzucLm0/0.jpg)](https://www.youtube.com/watch?v=S09eIzucLm0)
 
 ### Prototype
-
+[![GentleWeather App Video](http://img.youtube.com/vi/9deblNkJKWg/0.jpg)](https://www.youtube.com/watch?v=9deblNkJKWg)
 
 ### Screenshots
 ![GentleWeather Screenshot1](https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/YeinJo/GentleWeatherPresentation/gentleScreenshot1.png)
