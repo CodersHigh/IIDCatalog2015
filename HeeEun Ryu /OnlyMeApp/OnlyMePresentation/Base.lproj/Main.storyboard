@@ -82,7 +82,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="7423.5" y="28.5"/>
+            <point key="canvasLocation" x="6827.5" y="527.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="t4p-zE-ayX">
@@ -135,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BtA-Fr-wwM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7451.5" y="1425.5"/>
+            <point key="canvasLocation" x="6864.5" y="1264.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vi2-b8-1gc">
@@ -174,12 +174,6 @@
                                     <segue destination="ac1-Z2-K8y" kind="embed" id="XiS-GP-Myw"/>
                                 </connections>
                             </containerView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knF-Fh-B7e">
-                                <rect key="frame" x="246" y="57" width="123" height="30"/>
-                                <connections>
-                                    <segue destination="jRd-n8-7OH" kind="show" id="wfa-tM-ulB"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -187,7 +181,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1s5-tq-eow" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7915.5" y="1417.5"/>
+            <point key="canvasLocation" x="7992.5" y="1388.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Q4q-hL-RMH">
@@ -233,7 +227,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dcw-u7-Daq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8455.5" y="1339.5"/>
+            <point key="canvasLocation" x="8386.5" y="1388.5"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="8Tn-lW-vOK">
@@ -611,7 +605,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="quv-8k-7oS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7907.5" y="33.5"/>
+            <point key="canvasLocation" x="7549.5" y="565.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cZY-bl-cBQ">
@@ -633,8 +627,11 @@
                             </containerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9J-xf-DJy">
                                 <rect key="frame" x="0.0" y="419" width="375" height="248"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1DC-iP-WZS">
+                                <rect key="frame" x="0.0" y="442" width="375" height="225"/>
                                 <connections>
-                                    <segue destination="ac1-Z2-K8y" kind="show" id="Yhp-fM-eVQ"/>
+                                    <segue destination="zuC-A9-Neo" kind="show" id="8W6-4q-NqX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -644,7 +641,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="67z-2Z-WoO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6670.5" y="2092.5"/>
+            <point key="canvasLocation" x="6707.5" y="2232.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hR4-io-VQW">
@@ -717,7 +714,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vWr-cb-i6D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6670.5" y="2865.5"/>
+            <point key="canvasLocation" x="6707.5" y="3101.5"/>
         </scene>
         <!--Image Scroll Scene-->
         <scene sceneID="fUt-T0-Xrt">
@@ -750,7 +747,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ykI-SP-Do0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7899.5" y="-849"/>
+            <point key="canvasLocation" x="7549.5" y="-248"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="Ags-Fg-ZvR">
@@ -1165,7 +1162,7 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="navericon" translatesAutoresizingMaskIntoConstraints="NO" id="4SE-Gf-lru">
                                                     <rect key="frame" x="26" y="576" width="25" height="25"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="포토샵 단축키 모음" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNf-UW-JcP">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="산티아고 순례길" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNf-UW-JcP">
                                                     <rect key="frame" x="54" y="572" width="139" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1269,7 +1266,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jG3-Tm-iwD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7077.5" y="2247"/>
+            <point key="canvasLocation" x="7407.5" y="2464"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="kJA-KB-0Lc">
@@ -1364,7 +1361,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IPy-sK-fWK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7955.5" y="3695.5"/>
+            <point key="canvasLocation" x="8780.5" y="2615.5"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="2tp-ln-R8J">
@@ -1468,7 +1465,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DD2-7D-7Ms" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7547.5" y="3695.5"/>
+            <point key="canvasLocation" x="8372.5" y="2615.5"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="Aed-kn-I1f">
@@ -1503,6 +1500,12 @@
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZn-ww-8Q4">
+                                                    <rect key="frame" x="12" y="0.0" width="243" height="53.5"/>
+                                                    <connections>
+                                                        <segue destination="jRd-n8-7OH" kind="show" id="LH7-oS-NhD"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1560,7 +1563,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dM8-7D-QF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9629.5" y="3696.5"/>
+            <point key="canvasLocation" x="10454.5" y="2615.5"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="l1a-y5-zY5">
@@ -1655,7 +1658,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y8G-Ue-cox" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8377.5" y="3695.5"/>
+            <point key="canvasLocation" x="9202.5" y="2615.5"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="bhV-eW-8gs">
@@ -1750,7 +1753,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K6K-Q5-Peg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8791.5" y="3695.5"/>
+            <point key="canvasLocation" x="9616.5" y="2615.5"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="F8z-rZ-4qQ">
@@ -1846,7 +1849,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RZE-09-9GV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9216.5" y="3696.5"/>
+            <point key="canvasLocation" x="10041.5" y="2616.5"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="owK-tx-4Rs">
@@ -1956,65 +1959,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZl-YZ-8wg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7094.5" y="3400.5"/>
-        </scene>
-        <!--Image Scroll Scene-->
-        <scene sceneID="tfL-ii-8iH">
-            <objects>
-                <viewController id="1Ay-Ps-JA9" customClass="ImageScrollScene" customModule="OnlyMePresentation" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Bg4-jh-ZOG"/>
-                        <viewControllerLayoutGuide type="bottom" id="afm-7w-02P"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TK6-zg-ZED">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bJQ-ih-5m5">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="페이스북페이징-1"/>
-                    </userDefinedRuntimeAttributes>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="30J-Fe-taM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7565.5" y="3092"/>
-        </scene>
-        <!--Image Scroll Scene-->
-        <scene sceneID="eqE-46-sKS">
-            <objects>
-                <viewController id="yDh-Vc-KBU" customClass="ImageScrollScene" customModule="OnlyMePresentation" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="D4j-xh-hJ4"/>
-                        <viewControllerLayoutGuide type="bottom" id="LI7-IF-qog"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="VZe-t8-LUj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="kto-Pf-2pu">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="kto-Pf-2pu" firstAttribute="top" secondItem="D4j-xh-hJ4" secondAttribute="bottom" id="50v-gk-ANC"/>
-                            <constraint firstAttribute="bottom" secondItem="kto-Pf-2pu" secondAttribute="bottom" id="PxA-M6-H9V"/>
-                            <constraint firstAttribute="trailing" secondItem="kto-Pf-2pu" secondAttribute="trailing" id="Vfy-iV-gXC"/>
-                            <constraint firstItem="kto-Pf-2pu" firstAttribute="leading" secondItem="VZe-t8-LUj" secondAttribute="leading" id="kFD-ul-ZBn"/>
-                        </constraints>
-                    </view>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="frequentlyviewed"/>
-                    </userDefinedRuntimeAttributes>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dwr-zw-aim" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7344.5" y="2813"/>
+            <point key="canvasLocation" x="7915.5" y="2616.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rKc-Oj-3gw">
@@ -2031,7 +1976,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l5D-x0-cZK">
                                 <rect key="frame" x="0.0" y="58" width="375" height="150"/>
                                 <connections>
-                                    <segue destination="1Ay-Ps-JA9" kind="embed" id="Dpy-k9-Aw2"/>
+                                    <segue destination="IgD-UX-H6T" kind="embed" id="ZFw-vL-fBH"/>
                                 </connections>
                             </containerView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebookIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Z3U-ae-NpV">
@@ -2052,7 +1997,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nW3-Ue-gfW">
                                 <rect key="frame" x="0.0" y="269" width="375" height="150"/>
                                 <connections>
-                                    <segue destination="vJf-Z0-kby" kind="embed" id="GVN-ZW-Sji"/>
+                                    <segue destination="Pmd-aU-Pip" kind="embed" id="9Qm-b6-RKA"/>
                                 </connections>
                             </containerView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagramIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Ujy-vO-mQr">
@@ -2073,7 +2018,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NJ4-gI-vfC">
                                 <rect key="frame" x="0.0" y="482" width="375" height="150"/>
                                 <connections>
-                                    <segue destination="yDh-Vc-KBU" kind="embed" id="1kj-Vj-t9Y"/>
+                                    <segue destination="ud2-Ve-1Eq" kind="embed" id="4pC-od-TUR"/>
                                 </connections>
                             </containerView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="navericon" translatesAutoresizingMaskIntoConstraints="NO" id="eQ8-qH-9nG">
@@ -2098,33 +2043,75 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c7g-NP-Cda" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8161.5" y="2231.5"/>
+            <point key="canvasLocation" x="8861.5" y="891.5"/>
         </scene>
         <!--Image Scroll Scene-->
-        <scene sceneID="kiL-Oo-lcm">
+        <scene sceneID="wcT-E1-B2S">
             <objects>
-                <viewController id="vJf-Z0-kby" customClass="ImageScrollScene" customModule="OnlyMePresentation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IgD-UX-H6T" customClass="ImageScrollScene" customModule="OnlyMePresentation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dQB-4R-lD7"/>
-                        <viewControllerLayoutGuide type="bottom" id="P8S-q3-Enl"/>
+                        <viewControllerLayoutGuide type="top" id="7nd-1g-u0N"/>
+                        <viewControllerLayoutGuide type="bottom" id="54H-2l-EWL"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8mu-bV-yHN">
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="bib-6c-X7B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ChC-xP-jW0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                            </scrollView>
+                        </subviews>
+                    </scrollView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wc0-s1-ZIh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9351.5" y="642"/>
+        </scene>
+        <!--Image Scroll Scene-->
+        <scene sceneID="HDP-BH-df9">
+            <objects>
+                <viewController id="Pmd-aU-Pip" customClass="ImageScrollScene" customModule="OnlyMePresentation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SbA-BF-tiU"/>
+                        <viewControllerLayoutGuide type="bottom" id="9gv-8v-Cfs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kj2-DU-hgx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u7g-ZB-rCI">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BSt-3B-8SH">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="imageName" value="페이스북페이징-1"/>
-                    </userDefinedRuntimeAttributes>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="181-Hs-b5x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sSH-AG-FWS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7929.5" y="2877"/>
+            <point key="canvasLocation" x="9351.5" y="1036"/>
+        </scene>
+        <!--Image Scroll Scene-->
+        <scene sceneID="sdj-Cd-g0D">
+            <objects>
+                <viewController id="ud2-Ve-1Eq" customClass="ImageScrollScene" customModule="OnlyMePresentation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f4y-EN-FfY"/>
+                        <viewControllerLayoutGuide type="bottom" id="qYB-Fd-TxE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iI4-Nc-POZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mbm-D8-HYf">
+                                <rect key="frame" x="0.0" y="-7" width="375" height="157"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b8O-T5-ryz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8963.5" y="1481"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jab-M6-2Pt">
@@ -2150,7 +2137,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HzV-EO-nXh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6497" y="5"/>
+            <point key="canvasLocation" x="6300" y="494"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8UI-01-DJ4">
@@ -2195,7 +2182,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r8X-w4-Gga" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6627" y="1451"/>
+            <point key="canvasLocation" x="6308" y="1231"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hDI-YI-dVW">
@@ -2315,7 +2302,7 @@
         <image name="흰색배경" width="1000" height="666"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Yhp-fM-eVQ"/>
+        <segue reference="U2Y-3t-Nc8"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.098039215690000001" green="0.76078431369999999" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
 </document>
