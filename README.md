@@ -1,6 +1,10 @@
 # IIDCatalog2015
 2015년 연세대학교 정보인터렉션디자인학과 `애플리케이션 프로토타이핑` 수업 기말 프로젝트를 위한 리포지터리
 
+## iBooks File
+[Google Drive 로부터 다운로드](https://drive.google.com/file/d/0B_UGJLK0JAuiRURVb2pqelg0cTQ/view?usp=sharing)
+
+
 ## [GentleWeather 조예인](./YeinJo/GentleWeather.md)
 
 <a href = "./YeinJo/GentleWeather.md"><img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/YeinJo/GentleWeatherPresentation/gentleScreenshot1.png" alt="GentleWeather Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/YeinJo/GentleWeatherPresentation/gentleScreenshot2.png" alt="GentleWeather Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/YeinJo/GentleWeatherPresentation/gentleScreenshot3.png" alt="GentleWeather Screenshot" height="200" ></a>
