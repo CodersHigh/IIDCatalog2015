@@ -21,16 +21,16 @@
 
 <a href = "./HoryunSong/Underlined.md"><img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/HoryunSong/Presentation/UnderlinedScreenshot1.png" alt="Outlined Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/HoryunSong/Presentation/UnderlinedScreenshot2.png" alt="Outlined Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/HoryunSong/Presentation/UnderlinedScreenshot3.png" alt="Outlined Screenshot" height="200" ></a>
 
-[Outlined 페이지 방문](./HoryunSong/Underlined.md)
+[Underlined 페이지 방문](./HoryunSong/Underlined.md)
 
 
 ### A.Space
 
-[A.Space 페이지 방문](./MinkyuJung/ASpace.md)
+A.Space 페이지 방문 (준비중)
 
 ### OnlyMe
 
-[OnlyMe 페이지 방문](./HeeEun%20Ryu/OnlyMe.md)
+OnlyMe 페이지 방문 (준비중)
 
 ## 폴더 구조와 기말 프로젝트 구성
 여러명이 공동으로 작업하는 공간이므로 폴더 사용의 원칙을 지켜주세요.
