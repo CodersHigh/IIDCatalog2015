@@ -12,25 +12,30 @@
 
 ### GentleWeather
 
-<a href = "./YeinJo/GentleWeather.md"><img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/YeinJo/GentleWeatherPresentation/gentleScreenshot1.png" alt="GentleWeather Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/YeinJo/GentleWeatherPresentation/gentleScreenshot2.png" alt="GentleWeather Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/YeinJo/GentleWeatherPresentation/gentleScreenshot3.png" alt="GentleWeather Screenshot" height="200" ></a>
+<a href = "./YeinJo/">
+GentleWeather by 조예인
 
-[GentleWeather 페이지 방문](./YeinJo/GentleWeather.md)
+<img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/YeinJo/GentleWeatherPresentation/gentleScreenshot1.png" alt="GentleWeather Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/YeinJo/GentleWeatherPresentation/gentleScreenshot2.png" alt="GentleWeather Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/YeinJo/GentleWeatherPresentation/gentleScreenshot3.png" alt="GentleWeather Screenshot" height="200" ></a>
 
 
 ### Underlined
 
-<a href = "./HoryunSong/Underlined.md"><img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/HoryunSong/Presentation/UnderlinedScreenshot1.png" alt="Outlined Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/HoryunSong/Presentation/UnderlinedScreenshot2.png" alt="Outlined Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/HoryunSong/Presentation/UnderlinedScreenshot3.png" alt="Outlined Screenshot" height="200" ></a>
+<a href = "./HoryunSong/">
+Underlined by 송호련
 
-[Underlined 페이지 방문](./HoryunSong/Underlined.md)
+<img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/HoryunSong/Presentation/UnderlinedScreenshot1.png" alt="Outlined Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/HoryunSong/Presentation/UnderlinedScreenshot2.png" alt="Outlined Screenshot" height="200" > <img src="https://raw.githubusercontent.com/CodersHigh/IIDCatalog2015/master/HoryunSong/Presentation/UnderlinedScreenshot3.png" alt="Outlined Screenshot" height="200" ></a>
 
 
 ### A.Space
-
-A.Space 페이지 방문 (준비중)
+<a href = "./MinkyuJung/">
+A.Space by 정민규
+</a>
 
 ### OnlyMe
 
-OnlyMe 페이지 방문 (준비중)
+<a href = "./HeeEun%20Ryu%20/">
+OnlyMe by 류희은
+</a>
 
 ## 폴더 구조와 기말 프로젝트 구성
 여러명이 공동으로 작업하는 공간이므로 폴더 사용의 원칙을 지켜주세요.
